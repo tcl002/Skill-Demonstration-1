@@ -15,11 +15,11 @@ public class Tester {
         assertEquals("Checks that the number of quarters is correct",
             6, c.getChange()[0]);
         assertEquals("Checks that the number of dimes is correct",
-            15, c.getChange()[0]);
+            0, c.getChange()[1]);
         assertEquals("Checks that the number of nickels is correct",
-            31, c.getChange()[0]);
+            1, c.getChange()[2]);
         assertEquals("Checks that the number of pennies is correct",
-            157, c.getChange()[0]);
+            2, c.getChange()[3]);
     }
 
 }
